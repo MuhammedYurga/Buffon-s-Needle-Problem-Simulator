@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BuffonsNeedleProblemSimulator_MuhammedYurga.exe" version="1.0.0.1" publicKeyToken="77ab61b266d5bd9f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Buffon'sNeedleLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BuffonsNeedleProblemSimulator_MuhammedYurga" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BuffonsNeedleProblemSimulator_MuhammedYurga.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BuffonsNeedleProblemSimulator_MuhammedYurga.exe" size="242096">
+      <assemblyIdentity name="BuffonsNeedleProblemSimulator_MuhammedYurga" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/XjRfDd7OmvubV8Tlfti54f94ue36c1Zo7efEo0bP0E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="242176">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8bPg8nUKkQPkampKNPHPnRd3lyX5gELMJHXsZkhIAc8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.dll" size="4885504">
+      <assemblyIdentity name="Telerik.WinControls" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mlzEaHGU9wBrFHwgWoURFSiPuP/4DXHXW2Nk11hXdnM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.SyntaxEditor.dll" size="1295872">
+      <assemblyIdentity name="Telerik.WinControls.SyntaxEditor" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JieuIJd7LbylcX8AaY2ZbbONLqMNsGk4b3yC3TSG4QM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.Themes.TelerikMetro.dll" size="643584">
+      <assemblyIdentity name="Telerik.WinControls.Themes.TelerikMetro" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rJF94aPiv/fhKjJeSMVWbMl+E+Jz1/xkPMXP82x/UgY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.UI.dll" size="7066112">
+      <assemblyIdentity name="Telerik.WinControls.UI" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q7CEyACcAPg5RxNDZPvHI203sC55XHx77jLhtlqeLBU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TelerikCommon.dll" size="915456">
+      <assemblyIdentity name="TelerikCommon" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NjVf0iZaU0nmpQp/g4OEr2teqRkIW/x7IOep75fFR7Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Buffon'sNeedleLogo.ico" size="109519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bDf6oTqx0FZ3WnxVJqB+kTy+1sXTZmAKBVMw0RrobEA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BuffonsNeedleProblemSimulator_MuhammedYurga.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CASPER\CASPER" issuerKeyHash="5d5ded1adf4fcac759617a6afe6c0b28b757f1e3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yxzMDOXHfj5MuFAgqcaV6P7KkzFWyJcc86sDRMm2To8=</DigestValue></Reference></SignedInfo><SignatureValue>fbMKgosIhAMCVzHZb1B3DWKiw+I9YRtTPx31kVuK4fwkFm27QYW93WT8oc46gaFj8Y4Ii73SSTPhSFz/AYxiJnwk9CdIyAIKNYsMBpQCIrFqvClgoykKRrYs/3uerDpzQZq2M9kknuIbu9bUbsabXMe2rcpapvLsSa0FAl3TA30=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1G0Y81n99PWaPnsT57FQspqTMAqkK/cbNLrcdf6KVsz1WcE1EJdCgc8XbskrDJfSia1peY0ua6gaO4Pip1L6mCb4ivy0hexCZlYzRLgDWTcuqvMuQnPL7ZHpvF1HrCGyr6qM0JTTrjhMt9wM4/u+jLKc88B7gODedw8DEFPWAyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8f4eb6c94403abf31c97c8563193cafee895c6a92050b84c3e7ec7e50ccc1ccb" Description="" Url=""><as:assemblyIdentity name="BuffonsNeedleProblemSimulator_MuhammedYurga.exe" version="1.0.0.1" publicKeyToken="77ab61b266d5bd9f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CASPER\CASPER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P7oR1ZPkfJ+TxB2ytynv1Z0G+MfFyJAXuS+GYyNs8M0=</DigestValue></Reference></SignedInfo><SignatureValue>Z7Ycn28EqRRdaWZQe0cbaNYLAidKMU8jzmEaHvoaW3qAPFCD1b0gHLuUu4LjQs+m3TcgyxsT+8jm5kX3QAGCNh1SspH9q2fr1aMU6HaPfUeQEaUWi/NFOuRiTj6v77kiHBcyizS458inW7NxdzlfmBhTgjBZ9QkVzs5+r35IkNU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1G0Y81n99PWaPnsT57FQspqTMAqkK/cbNLrcdf6KVsz1WcE1EJdCgc8XbskrDJfSia1peY0ua6gaO4Pip1L6mCb4ivy0hexCZlYzRLgDWTcuqvMuQnPL7ZHpvF1HrCGyr6qM0JTTrjhMt9wM4/u+jLKc88B7gODedw8DEFPWAyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQK1BPjqe9uLVN7UAY91toHTANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQwBBAFMAUABFAFIAXABDAEEAUwBQAEUAUjAeFw0yMjA0MDkxMTA5MTNaFw0yMzA0MDkxNzA5MTNaMCUxIzAhBgNVBAMeGgBDAEEAUwBQAEUAUgBcAEMAQQBTAFAARQBSMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUbRjzWf309Zo+exPnsVCympMwCqQr9xs0utx1/opWzPVZwTUQl0KBzxduySsMl9KJrWl5jS5rqBo7g+KnUvqYJviK/LSF7EJmVjNEuANZNy6q8y5Cc8vtkem8XUesIbKvqozQlNOuOEy33Azj+76MspzzwHuA4N53DwMQU9YDKQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJLS3yWtx4cnG2hzbOZDrg/VmK0nDM5ZL5/UXAsedV2YJ5bz3DQwTgRIs/j64FjEI7Z8cRd8+nPdR+8fds7tiPbBgu7ywWhEb+xgr30iAjEktwjh6D7QpX3y+iiWFk8It3ISkVgWAZx7yL/4DYyH4ftqRB+B7NaNFFzpkGXMbx2+</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
